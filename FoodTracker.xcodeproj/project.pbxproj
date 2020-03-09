@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D3CA4551241359990028C0BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA4550241359990028C0BA /* AppDelegate.swift */; };
 		D3CA4553241359990028C0BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA4552241359990028C0BA /* SceneDelegate.swift */; };
-		D3CA4555241359990028C0BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA4554241359990028C0BA /* ViewController.swift */; };
+		D3CA4555241359990028C0BA /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA4554241359990028C0BA /* MealViewController.swift */; };
 		D3CA4558241359990028C0BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CA4556241359990028C0BA /* Main.storyboard */; };
 		D3CA455A2413599D0028C0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CA45592413599D0028C0BA /* Assets.xcassets */; };
 		D3CA455D2413599D0028C0BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CA455B2413599D0028C0BA /* LaunchScreen.storyboard */; };
@@ -34,7 +34,7 @@
 		D3CA454D241359990028C0BA /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CA4550241359990028C0BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3CA4552241359990028C0BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3CA4554241359990028C0BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3CA4554241359990028C0BA /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		D3CA4557241359990028C0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3CA45592413599D0028C0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3CA455C2413599D0028C0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 			children = (
 				D3CA4550241359990028C0BA /* AppDelegate.swift */,
 				D3CA4552241359990028C0BA /* SceneDelegate.swift */,
-				D3CA4554241359990028C0BA /* ViewController.swift */,
+				D3CA4554241359990028C0BA /* MealViewController.swift */,
 				D3CA45722414A99D0028C0BA /* RatingControl.swift */,
 				D3CA4556241359990028C0BA /* Main.storyboard */,
 				D3CA45782414FC620028C0BA /* MealTableViewController.swift */,
@@ -216,7 +216,7 @@
 				D3CA45732414A99D0028C0BA /* RatingControl.swift in Sources */,
 				D3CA45792414FC620028C0BA /* MealTableViewController.swift in Sources */,
 				D3CA45772414F5A40028C0BA /* MealTableViewCell.swift in Sources */,
-				D3CA4555241359990028C0BA /* ViewController.swift in Sources */,
+				D3CA4555241359990028C0BA /* MealViewController.swift in Sources */,
 				D3CA4551241359990028C0BA /* AppDelegate.swift in Sources */,
 				D3CA4553241359990028C0BA /* SceneDelegate.swift in Sources */,
 			);
